@@ -5,18 +5,18 @@ let magicNumber = 3;
 
 //Get the users guess
 //Return a string
-  } else  {  
+   
 let guessNumber = prompt("What is the magic number?");
 if (guessNumber == magicNumber) {
     console.log("Congrats! You guessed the magic number.");
     } else if ( guessNUmber > magicNumber)  {
         console.log("Guess was too high :/. Try again.");
          } else { 
-            console.log("Guess was too low >:(. Try again.);
+            console.log("Guess was too low >:(. Try again.)
     }
 
 
-    };
+    );
 //covert the
 
 
@@ -51,6 +51,6 @@ if (guessNumber == magicNumber) {
     case "June", "July", "August":
         console.log("Summer")
     }   break;
-    case 
-     default :
+    
+    
         console.log("I don't reconize that month...");
