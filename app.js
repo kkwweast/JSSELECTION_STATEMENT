@@ -12,16 +12,18 @@ if (guessNumber == magicNumber) {
     } else if ( guessNUmber > magicNumber)  {
         console.log("Guess was too high :/. Try again.");
          } else { 
-            console.log("Guess was too low >:(. Try again.)
-    }
+            console.log("Guess was too low >:(. Try again.")
 
 
-    );
+        }
+
+
+    
 //covert the
 
 
 
-    Let birthMonth = prompt("Please insert your birth month:" );
+    Let. birthMonth = prompt("Please insert your birth month:" );
 
     switch (birthMoth){ 
        case "December":
@@ -50,7 +52,7 @@ if (guessNumber == magicNumber) {
         break;
     case "June", "July", "August":
         console.log("Summer")
-    }   break;
+    }   'break';
     
     
         console.log("I don't reconize that month...");
