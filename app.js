@@ -1,58 +1,115 @@
 //Exercise 1: Guessing game 
 if (isSecureContext(guessNumber) || guessNumber)
 
-let magicNumber = 3;
+let magicNumber: = 3;
+//exercise 2
+const birthMonth = window.prompt("What is your birth month?")
 
-//Get the users guess
-//Return a string
+const sanitizedMonth = birthMonth.slice(0, 3).
+toLowerCase();
    
-let guessNumber = prompt("What is the magic number?");
-if (guessNumber == magicNumber) {
-    console.log("Congrats! You guessed the magic number.");
-    } else if ( guessNUmber > magicNumber)  {
-        console.log("Guess was too high :/. Try again.");
-         } else { 
-            console.log("Guess was too low >:(. Try again.")
-
-
-        }
-
-
-    
-//covert the
-
-
-
-    Let. birthMonth = prompt("Please insert your birth month:" );
-
-    switch (birthMoth){ 
-       case "December":
-       case "January":
-       case "February":
-       console.log("winter") ;
+     switch (sanitizedMonth){ 
+       case "sep":
+       case "oct":
+       case "nov":
+       console.log("autumn") ;
        break;
-       case "March":
-       case "April":
-       case "May":
-        console.log("Spring");
-       case "June":
-       case "July":
-       case "August":
-        console.log("Summer");
+       case "dec":
+       case "jan":
+       case "feb":
+        console.log("winter");
+       case "mar":
+       case "apr":
+       case "may":
+        console.log("spring");
         break;
-        case "September":
-        case "October":
-        case "November":
-            vonsole.log("Fall");
+        case "jun":
+        case "july":
+        case "aug":
+            vonsole.log("summer");
             break;
             default:
             console.log("I don't reconize that month...");
-     
-        
+
+
+
+   //exercise 3
+   let typeId = "01";
+   let colorId = "PU";
+   let sizeId = "L";
+   
+   let type = "";
+   let color = "";
+   let size = "";
+   
+   if (typeId == "01") {
+     type = "Tank top";
+   } else if (typeId == "02") {
+     type = "T-Shirt";
+   } else if (typeId == "03") {
+     type = "Long Sleeve";
+   } else if (typeId == "04") {
+     type == "Sweat Shirt";
+   } else {
+     type = "Other";
+   }
+   switch (typeId) {
+   case "01":
+    type = "Tank top";
+   break;
+   case "02";
+   type = "long sleeve";
+   case "03":
+    type = "Sweat Shirt";
+    break;
+   default:
+    type = "other";
+   }
+   
+   if (colorId) {
+     case "BK":
+     color = "black";""
+     break;
+     case"BL":
+     color = "Blue";
+     break;
+     case "RD":
+        color = "red"
         break;
-    case "June", "July", "August":
-        console.log("Summer")
-    }   'break';
+        case "PU":
+            color = "purple";
+            break;
+            default:
+          }       color = "white";
+
+   
+switch(sizeId) {   
+   case "S":
+   size = "Small";
+     break;
+     case "M":
+     size = "Medium";
+        break;
+        case "L";
+    size = "Large";
+    break;
+    case "XL":
+    size = "Extra Large";
+    break;
+    default:
+        size = "One Size Fits All";
+
+}
+     
+  
+   
+   //string Interpolation
+   
+   console.log(`Product: ${size} ${color} ${type}`);
+   console.log("Product: " + size + "" + color +""+type);
+   
+   let userSize = prompt("What size would you like?");
+     
     
     
-        console.log("I don't reconize that month...");
+       
