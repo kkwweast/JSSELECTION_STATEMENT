@@ -1,7 +1,18 @@
-//Exercise 1: Guessing game 
-if (isSecureContext(guessNumber) || guessNumber)
+// Step 1: Initialize favorite number
+let favoriteNumber = 7; // You can replace this with any number of your choice
 
-let magicNumber: = 3;
+// Step 2: Ask the user to input a number
+let guessedNumber = parseInt(prompt("Guess the number:"));
+
+// Step 3: Compare the guessed number with the favorite number
+if (guessedNumber < favoriteNumber) {
+    console.log("too low");
+} else if (guessedNumber > favoriteNumber) {
+    console.log("too high");
+} else {
+    console.log("Congratulations!!!");
+}
+
 //exercise 2
 const birthMonth = window.prompt("What is your birth month?")
 
@@ -36,11 +47,9 @@ toLowerCase();
    //exercise 3
    let typeId = "01";
    let colorId = "PU";
-   let sizeId = "L";
    
    let type = "";
    let color = "";
-   let size = "";
    
    if (typeId == "01") {
      type = "Tank top";
@@ -66,7 +75,7 @@ toLowerCase();
     type = "other";
    }
    
-   if (colorId) {
+   if(colorId){}
      case "BK":
      color = "black";""
      break;
